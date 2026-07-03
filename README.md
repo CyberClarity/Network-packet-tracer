@@ -28,12 +28,12 @@ Packet sniffing requires raw socket access, which needs elevated privileges.
 
 Run with `sudo`:
 ```bash
-sudo python3 scripts/packet_sniffer.py 50
+sudo python3 scripts/Netowk-packer-tracer.py 50
 ```
 
 If using a virtual environment, make sure `sudo` uses the venv's Python:
 ```bash
-sudo -E python3 scripts/packet_sniffer.py 50
+sudo -E python3 scripts/Netowk-packer-tracer.py 50
 ```
 
 Alternatively, grant the capability directly to avoid needing `sudo` each time
@@ -44,10 +44,10 @@ sudo setcap cap_net_raw,cap_net_admin=eip $(which python3)
 
 ## Usage
 ```bash
-sudo python3 scripts/packet_sniffer.py <packet_count>
+sudo python3 scripts/Netowk-packer-tracer.py <packet_count>
 
 # Example: capture 50 packets
-sudo python3 scripts/packet_sniffer.py 50
+sudo python3 scripts/Netowk-packer-tracer.py 50
 ```
 
 While it's capturing, generate some traffic in another terminal (e.g.
