@@ -1,4 +1,4 @@
-# 02 - Network Packet Analysis
+# Network Packet Analysis
 
 ## Objective
 Learn how to capture and analyze live network traffic at the packet level
