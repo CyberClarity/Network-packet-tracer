@@ -1,0 +1,88 @@
+[
+  {
+    "timestamp": "2026-07-03T12:52:25.759167",
+    "src_ip": "202.134.151.239",
+    "dst_ip": "192.168.10.3",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 443,
+    "dst_port": 45766,
+    "flags": "FA"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:25.760010",
+    "src_ip": "192.168.10.3",
+    "dst_ip": "202.134.151.239",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 45766,
+    "dst_port": 443,
+    "flags": "PA"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:25.760526",
+    "src_ip": "192.168.10.3",
+    "dst_ip": "202.134.151.239",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 45766,
+    "dst_port": 443,
+    "flags": "FA"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:25.765605",
+    "src_ip": "202.134.151.239",
+    "dst_ip": "192.168.10.3",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 443,
+    "dst_port": 45766,
+    "flags": "R"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:26.432804",
+    "type": "ARP",
+    "src_ip": "192.168.10.1",
+    "dst_ip": "192.168.10.1"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:27.470690",
+    "src_ip": "192.168.10.3",
+    "dst_ip": "151.101.129.91",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 52646,
+    "dst_port": 443,
+    "flags": "PA"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:27.490347",
+    "src_ip": "151.101.129.91",
+    "dst_ip": "192.168.10.3",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 443,
+    "dst_port": 52646,
+    "flags": "A"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:27.490876",
+    "src_ip": "151.101.129.91",
+    "dst_ip": "192.168.10.3",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 443,
+    "dst_port": 52646,
+    "flags": "PA"
+  },
+  {
+    "timestamp": "2026-07-03T12:52:27.507634",
+    "src_ip": "151.101.129.91",
+    "dst_ip": "192.168.10.3",
+    "protocol": 6,
+    "type": "TCP",
+    "src_port": 443,
+    "dst_port": 52646,
+    "flags": "PA"
+  }
+]
